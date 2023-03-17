@@ -1,4 +1,5 @@
-def Suman():
-    print("This is a Demo for Jenkins")
+def Suman(x,y):
+    sum = x+y
+    return sum 
 
-Suman()
+print(Suman(10,29))
